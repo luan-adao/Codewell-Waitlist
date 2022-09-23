@@ -108,3 +108,21 @@ a {text-decoration: none;}
     left: 20rem;
     z-index: 11;
 }
+
+@media screen and (max-width: 400px) {
+    main {
+        width: 100vw;
+        overflow: visible;
+        padding: 0.5rem 1rem;
+    }
+    .doc-title {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .doc-title.second-piece {
+        left: 13rem;
+        bottom: 3rem;
+    }
+
+    .avatar1,.avatar4,.avatar5 {display: none;}
+}
