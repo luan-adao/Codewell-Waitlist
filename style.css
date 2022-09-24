@@ -50,6 +50,7 @@ a {text-decoration: none;}
     font-size: 1.3rem;
     position: relative;
     bottom: 6rem;
+    width: 30rem;
 }
 .doc-text {
     line-height: 2rem;
@@ -114,8 +115,7 @@ a {text-decoration: none;}
 
 @media screen and (max-width: 450px) {
     main {
-        width: 100vw;
-        height: auto;
+        width: 360px;
         overflow: hidden;
         padding: 0.5rem 1rem;
     }
@@ -133,6 +133,8 @@ a {text-decoration: none;}
 
     .doc-text {
         bottom: 0;
+        width: 300px;
+        font-size: 1.2rem;
     }
 
     .launch-button {
@@ -142,23 +144,23 @@ a {text-decoration: none;}
     }
     .twitter-link {
         right: 0;
-        top: 10rem;
+        top: 12rem;
     }
 
     .avatar6 {
-        left:11rem;
-        bottom: 12.2rem;
+        left: 50%;
+        bottom: 25%;
     }
 
     .avatar2 {
         width: 132px;
-        bottom: 32rem;
-        left: 13rem;
+        bottom: 62%;
+        left: 60%;
     }
     
     .avatar3 {
-        right: 5rem;
-        bottom: 33.2rem;
+        right: 25%;
+        bottom: 64%;
         width: 98px;
     }
 
