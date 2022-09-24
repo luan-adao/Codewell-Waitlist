@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Sen:wght@400;700;800&display=swap');
 
-html {box-sizing: border-box;}
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
 
 * {padding: 0; margin: 0;}
 *,*::before,*::after {box-sizing: border-box;}
 
-html, body {width: 100%; height: 100%}
+html, body {width: 100%;}
 
 body {background-color: #013243;}
 
@@ -109,10 +112,11 @@ a {text-decoration: none;}
     z-index: 11;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     main {
         width: 100vw;
-        overflow: visible;
+        height: auto;
+        overflow: hidden;
         padding: 0.5rem 1rem;
     }
     .doc-title {
@@ -123,6 +127,39 @@ a {text-decoration: none;}
         left: 13rem;
         bottom: 3rem;
     }
-
     .avatar1,.avatar4,.avatar5 {display: none;}
+    
+    .fig-title {margin-bottom: 8rem;}
+
+    .doc-text {
+        bottom: 0;
+    }
+
+    .launch-button {
+        bottom: 0;
+        margin-top: 2rem;
+        z-index: 12;
+    }
+    .twitter-link {
+        right: 0;
+        top: 10rem;
+    }
+
+    .avatar6 {
+        left:11rem;
+        bottom: 12.2rem;
+    }
+
+    .avatar2 {
+        width: 132px;
+        bottom: 32rem;
+        left: 13rem;
+    }
+    
+    .avatar3 {
+        right: 5rem;
+        bottom: 33.2rem;
+        width: 98px;
+    }
+
 }
