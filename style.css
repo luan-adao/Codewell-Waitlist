@@ -163,5 +163,55 @@ a {text-decoration: none;}
         bottom: 64%;
         width: 98px;
     }
+}
+
+@media screen and (min-width: 600px) and (max-width: 850px) {
+    main {
+        width: 95%;
+        height: 100%;
+        padding: 2rem 1rem;
+    }
+    .doc-title {
+        font-size: 5.5rem;
+        line-height: 7.5rem;
+    }
+    .doc-title.second-piece {
+        left: 23rem; 
+        bottom: 7.5rem;
+    }
+    .fig-title {
+        margin-bottom: 40%;
+    }
+    .doc-text {
+        margin-top: 3rem;
+    }
+    .twitter-link {
+        top: 10rem;
+    }
+
+    .avatar1 {
+        left: 15rem;
+        bottom: 31rem;
+    }
+    .avatar2 {
+        left: 10rem;
+        bottom: 50rem;
+    }
+    .avatar3 {
+        right: 75%;
+        bottom: 48rem;
+    }
+    .avatar4 {
+        left: 50%;
+        bottom: 15%;
+    }
+    .avatar5 {
+        left: 9rem;
+        bottom: 52.5rem;
+    }
+    .avatar6 {
+        left: 2.5rem;
+        bottom: 35rem;
+    }
 
 }
